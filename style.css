@@ -14,9 +14,11 @@ h1 {
   font-size: 96px;
 }
 
+
 h2 {
   font-size: 48px;
 }
+
 
 h3 {
   font-size: 24px;
@@ -39,6 +41,10 @@ h3 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+.main-link:hover {
+color: white;
+ 
 }
 
 .secondary-link {
@@ -71,4 +77,22 @@ h3 {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 47px;
+    line-height: 1.5;
+  }
+   h2 {
+    font-size: 39px;
+    text-align: center;
+}
+p {
+text-align: center;
+}
+.project-cta {
+display: block;
+text-align: center;
+margin: 0 80px ;
+}
 }
